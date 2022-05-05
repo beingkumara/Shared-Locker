@@ -15,3 +15,32 @@ The USE module is supposed to read the locker id and fetch the value of k and th
 Further, it queries the users to feed in u1, u2, . . . , uk (order matters) as input. 
 
 The task in hand is to generate L using p1, p2, . . . , pk so as to let the users access the shared locker.
+
+
+Menu to be displayed to the user:
+
+1. CONFIGURE
+
+2. USE
+
+3. EXIT
+
+ The user mentions the preference ( 1 or 2 or 3)
+ 
+ If the user clicks:
+ 
+ 1 - > A new lockerID is entered:
+ 
+Enter a LockerID
+ 
+Enter the number of users
+ 
+Enter a 10 digit Locker Key L
+ 
+ 2 - > A locker is deleted:
+ 
+ Enter the Locker ID: 
+ 
+ Output: Entry successfully deleted  /  Invalid Entry
+ 
+ 3 - > The program is terminated
