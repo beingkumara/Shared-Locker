@@ -1,11 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <sstream>
-#include <fstream>
-#include <iomanip>
-#include <ios>
+#include <bits/stdc++.h>
 
 using namespace std;
 // The extended Euclidean algorithm uses the result calculated by the recursive call gcd (b% a, a) to update the result of gcd (a, b).
